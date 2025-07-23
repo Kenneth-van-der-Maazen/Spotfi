@@ -1,8 +1,8 @@
 SpotLite <> Spotify clone  
 Kenneth van der Maazen - 2025  
   
-Voor in de digitale portofolio  
-Moet wat grotere projecten erbij doen.  
+Gemaakt met HTML, CSS, PHP, PDO, Js, AJAX  
+Het ziet er wat kaal uit maar wel helemaal functioneel  
   
 ===================================================  
   
