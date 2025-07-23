@@ -14,7 +14,10 @@ Een spotif clone voor in je browser.
 
   
 
-  
+
+
+  Komt later:  
+    
 - artists moeten ook een profielfoto kunnen uploaden  
   
 - toetsenbord knoppen functionaliteit: [PLAY] - [PAUSE] - [NEXT] - [TERUG]  
