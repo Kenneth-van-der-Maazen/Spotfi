@@ -1,0 +1,118 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.register-page {
+    background: linear-gradient(60deg, rgba(0, 0, 23, 1) 0%, rgba(4, 19, 56, 1) 90%, rgba(6, 31, 77, 1) 100%) !important;
+    min-height: 100vh;
+    display: table;
+    width: 100%;
+}
+
+.user-register-container * {
+    color: #fff !important;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+.user-register-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+.user-register-container form {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #999;
+}
+
+.user-register-container h2 {
+    text-align: center;
+}
+
+.user-register-container input[type="text"],
+.user-register-container input[type="password"],
+.user-register-container input[type="email"] {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.user-register-container label {
+    color: #a0a0a0 !important;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+}
+
+.user-register-container input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.user-register-container button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 100%;
+}
+
+.user-register-container button:hover {
+    cursor: pointer;
+}
+
+/*////////// RECHTER ZIJDE //////////*/
+.registerText {
+    padding: 45px;
+    display: table-cell;
+}
+
+.registerText h1 {
+    color: #07d159 !important;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.registerText h2 {
+    margin: 35px 0;
+}
+
+.registerText ul {
+    padding: 0;
+}
+
+.registerText li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 5px 30px;
+    background: url(../images/checkmark-48.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+
+.success-message {
+    color: #4caf50;
+    background-color: #e8f5e9;
+    padding: 10px 15px;
+    border-left: 4px solid #4caf50;
+    font-weight: bold;
+}
