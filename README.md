@@ -11,7 +11,7 @@ Een spotif clone voor in je browser.
   
 ![Music player](./screenshot.png)  
   
-![Login](./login.png)  
+
   
 
   
