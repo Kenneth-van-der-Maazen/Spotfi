@@ -5,10 +5,11 @@ include("include/Classes/Artist.php");
 include("include/Classes/Album.php");
 include("include/Classes/Song.php");
 
-// if (!isset($_SESSION['login_status']) || $_SESSION['login_status'] !== true) {
-//     header("Location: user/user-login.php");
-//     exit;
-// }
+// Check if user is logged in else send to login page
+if (!isset($_SESSION['login_status']) || $_SESSION['login_status'] !== true) {
+    header("Location: user/user-login.php");
+    exit;
+}
 
 
 $user = new User();

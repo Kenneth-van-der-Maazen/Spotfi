@@ -64,7 +64,7 @@ body {
 
 .user-login-container button {
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #494949;
     border-radius: 250px;
     color: #fff;
     display: block;
@@ -77,13 +77,27 @@ body {
 
 .user-login-container button:hover {
     cursor: pointer;
+    /* background-color: #b88805; */
+    border-color: #fff;
+}
 
+.user-login-container a {
+    font-weight: 400;
+}
+
+.user-login-container a:hover
+{
+    color:#b88805 !important;
 }
 
 /*////////// RECHTER ZIJDE //////////*/
 .loginText {
+    /* padding: 45px;
+    display: table-cell; */
     padding: 45px;
-    display: table-cell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .loginText h1 {
@@ -103,8 +117,8 @@ body {
 .loginText li {
     font-size: 17px;
     list-style-type: none;
-    padding: 5px 30px;
-    background: url(../images/checkmark-48.png);
+    padding: 0px 30px;
+    /* background: url(../images/checkmark-48.png); */
     background-repeat: no-repeat;
     background-size: 20px 20px;
 }
@@ -126,12 +140,12 @@ body {
 }
 
 
-/*///////////////  //////////////////////////*/
+/*/////////////// FOOTER //////////////////////////*/
 .footer-container {
     color: rgb(179, 179, 179);
     text-align: center;
     padding: 32px;
-    background: black;
+    background-color: #121212;
 }
 
 .encore-text {

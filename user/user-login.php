@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 require "../include/user-class.php";
 
 $sql = new User();
@@ -11,7 +11,7 @@ try {
         
 
         if ($login && password_verify($_POST['password'], $login['password'])) {
-            
+            session_start();
             $_SESSION['login_status'] = true;
             $_SESSION['user_id'] = $login['user_id'];
             $_SESSION['user_name'] = $login['user_name'];
@@ -75,28 +75,27 @@ try {
                 <button type="submit" value="Login" name="Login">LOG IN</button>
 
                 <div class="hasAccountText">
-                    <span class="hideLogin">Don't have an account yet? <a href="user-register.php">[ Sign up here ]</a></span>
+                    <span class="hideLogin">Don't have an account? <a class="register-btn" href="user-register.php">[ Sign up here ]</a></span>
                 </div>
             </form>
 
             
             <!-- <a href="../index.php">< Go back</a> -->
             <div class="loginText">
-                <h1>My Music Box.</h1>
+                <h1>The Music Box.</h1>
                 <h2>Made it with:</h2>
                 <ul>
-                    <li>HTML & CSS</li>
-                    <li>PHP & MySQL<li>
-                    <li>JavaScript</li>
-                    <li>AJAX</li>
+                    <li>✅ HTML & CSS</li>
+                    <li>✅ PHP & MySQL<li>
+                    <li>✅ JavaScript</li>
+                    <li>✅ AJAX</li>
                 </ul>
             </div>
-
         </div>
     </section>
 
     <footer>
         <div class="footer-container">
-            <p class="encore-text">Kenneth van der Maazen (C) 2025 - I took an online course for this, and elements from Spotify and applied my PDO-Expert skills. [23/07/2025 - 14:26] BEST VERSION</p>
+            <p class="encore-text">Kenneth van der Maazen (C) 2025 - I used elements from the Spotify webapp and applied the PDO-Expert skills I've learned in college. - V.0.00.1 [ 30/07/2025 ]</p>
         </div>
     </footer>

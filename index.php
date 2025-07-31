@@ -16,7 +16,7 @@ include("include/header.php");
     if (isset($_SESSION['login_status']) && $_SESSION['login_status'] === true && isset($_SESSION['user_name'])) {
         echo htmlspecialchars($_SESSION['user_name']);
     } else {
-        echo "Placeholder";
+        echo "NOBODY";
     }
     ?>
 </h1>

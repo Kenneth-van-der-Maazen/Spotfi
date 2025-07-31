@@ -73,12 +73,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <div class="registerText">
                 <h1>Register today!</h1>
-                <h2>And don't miss out on new music!</h2>
-                <p>By registering, you agree to our <a href="#">Terms of Service</a></p>
+                <h2>And start listening to new music.</h2>
+                <!-- <p>By registering, you agree to our <a href="#">Terms of Service</a></p> -->
             </div>
             <!-- <p>Already have an account? <a href="user-login.php"> [ Login here ]</a></p> -->
             <!-- <a href="../index.php">< Go back</a> -->
         </div>
     </section>
-</body>
-</html>
+
+    <footer>
+        <div class="footer-container">
+            <p class="encore-text">Kenneth van der Maazen (C) 2025 - I used elements from the Spotify webapp and applied the PDO-Expert skills I've learned in college. - V.0.00.1 [ 30/07/2025 ]</p>
+        </div>
+    </footer>

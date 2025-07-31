@@ -3,6 +3,25 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* body.register-page {
+  background: linear-gradient(60deg, rgba(0, 0, 23, 1) 0%, rgba(4, 19, 56, 1) 90%, rgba(6, 31, 77, 1) 100%) !important;
+  width: 100%;
+  flex: 1;
+}
+
+.user-register-page {
+  flex: 1;
+} */
+
+.user-register-page {
+    background: linear-gradient(60deg, rgba(0, 0, 23, 1) 0%, rgba(4, 19, 56, 1) 90%, rgba(6, 31, 77, 1) 100%) !important;
+    min-height: calc(100vh - 82px);
+    display: table;
+    width: 100%;
 }
 
 .register-page {
@@ -64,7 +83,7 @@ body {
 
 .user-register-container button {
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #494949;
     border-radius: 250px;
     color: #fff;
     display: block;
@@ -77,6 +96,15 @@ body {
 
 .user-register-container button:hover {
     cursor: pointer;
+    border-color: #fff;
+}
+
+.user-register-container a {
+    font-weight: 400;
+}
+
+.user-register-container a:hover {
+    color:#b88805 !important;
 }
 
 /*////////// RECHTER ZIJDE //////////*/
@@ -86,7 +114,7 @@ body {
 }
 
 .registerText h1 {
-    color: #07d159 !important;
+    color: #b88805 !important;
     font-size: 45px;
     font-weight: bold;
 }
@@ -115,4 +143,23 @@ body {
     padding: 10px 15px;
     border-left: 4px solid #4caf50;
     font-weight: bold;
+}
+
+/*/////////////// FOOTER //////////////////////////*/
+.footer-container {
+    color: rgb(179, 179, 179);
+    text-align: center;
+    padding: 32px;
+    background-color: #121212;
+}
+
+.encore-text {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: inherit;
+}
+footer {
+    display: block;
 }
