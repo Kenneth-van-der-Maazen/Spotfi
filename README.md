@@ -2,11 +2,11 @@ SpotLite <> Spotify clone
 Kenneth van der Maazen - 2025  
   
 Gemaakt met HTML, CSS, PHP, PDO, Js, AJAX  
-Difficulty: 4/5  
+Was erg moeilijk.  
   
 ===================================================  
   
-Een spotify clone voor in de web browser.  
+Een spotify clone voor in je web browser.  
   
   
 ![Music player](./screenshot.png)  
@@ -15,5 +15,5 @@ Een spotify clone voor in de web browser.
   
   
 To-Do:  
-De layout!  
+De layout aanpassen.  
 
